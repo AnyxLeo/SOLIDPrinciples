@@ -35,7 +35,7 @@ namespace OpenClosedPrinciple.Models
             /// <image url="C:\Users\Anyx\Pictures\SOLID\OCP.PNG" scale="0.5" /> 
 
             /// <summary>
-            /// "A class is closed, since it may be compiled, stored in a library, baselined, and used by client classes.
+            /// "A class is closed, since it may be compiled, stored in a library, baseline, and used by client classes.
             /// But it is also open, since any new class may use it as parent, adding new features. 
             /// When a descendant class is defined, there is no need to change the original or to disturb its clients.”
             /// </summary>
@@ -59,7 +59,7 @@ namespace OpenClosedPrinciple.Models
             /// <image url="C:\Users\Anyx\Pictures\SOLID\ThePolymorphicOpenClosedPrinciple.PNG" scale="0.5" /> 
             /// <summary>
             /// The Polymorphic Open/Closed Principle. 
-            /// It uses interfaces instead of superclasses to allow different implementations 
+            /// It uses interfaces instead of super classes to allow different implementations 
             /// which you can easily substitute without changing the code that uses them.
             /// </summary>
 

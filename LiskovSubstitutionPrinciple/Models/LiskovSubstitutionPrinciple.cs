@@ -4,14 +4,14 @@ using SOLID.Models;
 using System;
 using System.Collections.Generic;
 /// <summary>
-/// Liskov Sustitution Principle
+/// Liskov Substitution Principle
 /// </summary>
-/// <image url="C:\Users\Anyx\Pictures\SOLID\LiskovSustitutionPrinciple.PNG" scale="1" /> 
+/// <image url="C:\Users\Anyx\Pictures\SOLID\LiskovSubstitutionPrinciple.PNG" scale="1" /> 
 namespace LiskovSubstitutionPrinciple.Models
 {    
-    public class LiskovSustitutionPrinciple
+    public class LiskovSubstitutionPrinciple
     {
-        public LiskovSustitutionPrinciple()
+        public LiskovSubstitutionPrinciple()
         {
             var authors = new List<Person>() { 
                 new Person("Barbara", "Liskov ", " ", ""),

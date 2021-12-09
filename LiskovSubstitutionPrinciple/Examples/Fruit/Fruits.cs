@@ -17,6 +17,7 @@ namespace LiskovSubstitutionPrinciple.Bad.Examples.Fruit
                 return "Red";
             }
         }
+
         public class Orange : Apple
         {
             public override string GetColor()

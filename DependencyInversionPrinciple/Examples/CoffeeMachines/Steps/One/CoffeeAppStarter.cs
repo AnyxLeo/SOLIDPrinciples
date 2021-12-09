@@ -1,10 +1,12 @@
 ﻿using DependencyInversionPrinciple.Examples.CoffeeMachines.Enumerations;
 using DependencyInversionPrinciple.Examples.CoffeeMachines.Exeptions;
 using DependencyInversionPrinciple.Examples.CoffeeMachines.Models;
+using DependencyInversionPrinciple.Examples.CoffeeMachines.Steps.One;
 using System;
 using System.Collections.Generic;
 
-namespace DependencyInversionPrinciple.Examples.CoffeeMachines.Steps.Two
+namespace DependencyInversionPrinciple.Examples.CoffeeMachines.Steps.one
+
 {
     public class CoffeeAppStarter
     {
@@ -24,7 +26,7 @@ namespace DependencyInversionPrinciple.Examples.CoffeeMachines.Steps.Two
 
             // get a new CoffeeMachine object
             var premiumCoffeeMachine = new PremiumCoffeeMachine(beans);
-          
+
             var app1 = new CoffeeApp(premiumCoffeeMachine);
             // brew a fresh coffee
             try

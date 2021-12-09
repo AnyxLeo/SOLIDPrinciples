@@ -1,5 +1,9 @@
 ﻿using System;
 
+/// <summary>
+/// Several classes are here only for demonstration purposes.
+/// It is a best practice that each class has its own file.
+/// </summary>
 namespace OpenClosedPrinciple.Examples.Shapes
 {
     public abstract class Shape

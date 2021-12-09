@@ -1,9 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
+/// <summary>
+/// Several classes and interfaces are here only for demonstration purposes.
+/// It is a best practice that each class or interface has its own file.
+/// </summary>
 namespace InterfaceSegregationPrinciple.Bad.Examples.Worker
 {
     public interface IWorker

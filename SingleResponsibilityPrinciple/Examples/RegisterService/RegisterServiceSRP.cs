@@ -1,8 +1,8 @@
 ﻿using System;
 
 /// <summary>
-/// This class contain all the clases needed for the exaple,
-/// but...
+/// Several classes are here only for demonstration purposes.
+/// It is a best practice that each class has its own file.
 /// </summary>
 namespace SingleResponsibilityPrinciple.Examples.RegisterService
 {
