@@ -12,7 +12,7 @@ using System.Collections.Generic;
 /// <summary>
 /// Open-closed principle
 /// </summary>
-/// <image url="C:\Users\Anyx\Pictures\SOLID\open-closed.PNG" scale="1" /> 
+/// <image url="$(SolutionDir)Assets\SOLID\open-closed.PNG" scale="1" /> 
 namespace OpenClosedPrinciple.Models
 {
     /// <summary>
@@ -32,7 +32,7 @@ namespace OpenClosedPrinciple.Models
             ///<param name="publicationsList">
             /// 1988. Object-Oriented Software Construction.
             /// </summary>
-            /// <image url="C:\Users\Anyx\Pictures\SOLID\OCP.PNG" scale="0.5" /> 
+            /// <image url="$(SolutionDir)Assets\SOLID\OCP.PNG" scale="0.5" /> 
 
             /// <summary>
             /// "A class is closed, since it may be compiled, stored in a library, baseline, and used by client classes.
@@ -56,7 +56,7 @@ namespace OpenClosedPrinciple.Models
         {
             _polymorphic = polymorphic;
 
-            /// <image url="C:\Users\Anyx\Pictures\SOLID\ThePolymorphicOpenClosedPrinciple.PNG" scale="0.5" /> 
+            /// <image url="$(SolutionDir)Assets\SOLID\ThePolymorphicOpenClosedPrinciple.PNG" scale="0.5" /> 
             /// <summary>
             /// The Polymorphic Open/Closed Principle. 
             /// It uses interfaces instead of super classes to allow different implementations 
@@ -102,7 +102,6 @@ namespace OpenClosedPrinciple.Models
 
             // get a new CoffeeMachine object
             var machine = new PremiumCoffeeMachine(beans);
-
             // Instantiate CoffeeApp
             var app = new CoffeeApp(machine);
 

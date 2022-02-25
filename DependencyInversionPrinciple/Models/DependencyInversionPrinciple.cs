@@ -1,11 +1,9 @@
 ﻿using SOLID.Models;
 
-vbusing SOLID.Models;
-
 /// <summary>
 /// Dependency Inversion Principle
 /// </summary>
-/// <image url="C:\Users\Anyx\Pictures\SOLID\di.PNG" scale="0.5" /> 
+/// <image url="$(SolutionDir)Assets\SOLID\di.PNG" scale="0.5" /> 
 namespace DependencyInversionPrinciple.Models
 {
     /// <summary>
@@ -25,7 +23,7 @@ namespace DependencyInversionPrinciple.Models
             ///1.- High-level modules should not depend on low-level modules. Both should depend on abstractions.
             ///2.- Abstractions should not depend on details. Details should depend on abstractions.
             /// </summary>
-            /// <image url="C:\Users\Anyx\Pictures\SOLID\DependencyInversionPrinciple.png" scale="1" /> 
+            /// <image url="$(SolutionDir)Assets\SOLID\DependencyInversionPrinciple.png" scale="1" /> 
         }
     }
    

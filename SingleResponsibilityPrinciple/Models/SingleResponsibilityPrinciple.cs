@@ -2,7 +2,7 @@
 /// <summary>
 /// The single-responsibility principle (SRP)
 /// </summary>
-/// <image url="C:\Users\Anyx\Pictures\SOLID\SRP.PNG" scale="0.5" /> 
+/// <image url="$(SolutionDir)Assets\SOLID\SRP.PNG" scale="0.5" /> 
 /// <summary>
 /// A class should have one, and only one, reason to change.
 /// </summary>
@@ -12,7 +12,7 @@ namespace SingleResponsibilityPrinciple.Models
     ///     - Requirements change over time.
     ///     - Depending on your change, you might need to update the dependencies or recompile the dependent classes even though they are not directly affected by your change.   
     /// </summary>
-    /// <image url="C:\Users\Anyx\Pictures\SOLID\Invoice1.PNG" scale="1" /> 
+    /// <image url="$(SolutionDir)Assets\SOLID\Invoice1.PNG" scale="1" /> 
     public class SingleResponsibilityPrinciple
     {
         public List<string> Benefits { get; set; }
@@ -32,6 +32,6 @@ namespace SingleResponsibilityPrinciple.Models
             //Go to examples.
         }
 
-        ///<image url = "C:\Users\Anyx\Pictures\SOLID\Question.PNG" scale="1" /> 
+        ///<image url = "$(SolutionDir)Assets\SOLID\Question.PNG" scale="1" /> 
     }
 }

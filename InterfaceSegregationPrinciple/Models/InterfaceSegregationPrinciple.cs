@@ -4,7 +4,9 @@ using SOLID.Models;
 /// <summary>
 /// Interface Segregation Principle
 /// </summary>
-/// <image url="C:\Users\Anyx\Pictures\SOLID\InterfaceSegregationPrinciple.PNG" scale="0.8" /> 
+/// <image url="$(SolutionDir)Assets\SOLID\InterfaceSegregationPrinciple.PNG" scale="0.8" /> 
+
+
 namespace InterfaceSegregationPrinciple.Models
 {
     public class InterfaceSegregationPrinciple
@@ -20,7 +22,7 @@ namespace InterfaceSegregationPrinciple.Models
             /// 
             /// "Clients should not be forced to depend upon interfaces that they do not use.”
             /// </summary>
-            /// <image url="C:\Users\Anyx\Pictures\SOLID\YouDontSay.png" scale="0.5" /> 
+            /// <image url="$(SolutionDir)Assets\SOLID\YouDontSay.png" scale="0.5" /> 
         }
     }
 }

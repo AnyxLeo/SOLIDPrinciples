@@ -6,7 +6,7 @@ using System.Collections.Generic;
 /// <summary>
 /// Liskov Substitution Principle
 /// </summary>
-/// <image url="C:\Users\Anyx\Pictures\SOLID\LiskovSubstitutionPrinciple.PNG" scale="1" /> 
+/// <image url="$(SolutionDir)Assets\SOLID\LiskovSubstitutionPrinciple.PNG" scale="1" /> 
 namespace LiskovSubstitutionPrinciple.Models
 {    
     public class LiskovSubstitutionPrinciple
@@ -18,7 +18,7 @@ namespace LiskovSubstitutionPrinciple.Models
                 new Person("Jeanette", "Wing ", " ", ""),
             };
 
-            /// <image url="C:\Users\Anyx\Pictures\SOLID\BarbaraLiskovAndJanetteWing.png" scale="0.8" /> 
+            /// <image url="$(SolutionDir)Assets\SOLID\BarbaraLiskovAndJanetteWing.png" scale="0.8" /> 
 
             authors[0].Greets();
             authors[1].Greets();
@@ -29,14 +29,14 @@ namespace LiskovSubstitutionPrinciple.Models
             /// Let Φ(x) be a property provable about objects x of type T.
             /// Then Φ(y) should be true for objects y of type S where S is a subtype of T.
             /// 
-            /// <image url="C:\Users\Anyx\Pictures\SOLID\whaaaat.jpg" scale="0.2" />
+            /// <image url="$(SolutionDir)Assets\SOLID\whaaaat.jpg" scale="0.2" />
          
 
             /// <summary>
             /// “The principle defines that objects of a superclass 
             /// shall be replaceable with objects of its subclasses without breaking the application. ”
             /// </summary>
-            /// <image url="C:\Users\Anyx\Pictures\SOLID\Igotit.png" scale="" />
+            /// <image url="$(SolutionDir)Assets\SOLID\Igotit.png" scale="" />
 
 
             /// <summary>

@@ -2,7 +2,7 @@
 using System;
 
 
-/// <image url="C:\Users\Anyx\Pictures\SOLID\SolidPrinciples.PNG" scale="1" /> 
+/// <image url="$(SolutionDir)Assets\SOLID\SolidPrinciples.PNG" scale="1" /> 
 /// <summary>
 /// The Golden Rules.
 /// Objective:
@@ -27,7 +27,7 @@ namespace SOLID
             /// <summary>
             /// Martin has authored many books and magazine articles.
             /// </summary>
-            /// <image url="C:\Users\Anyx\Pictures\SOLID\clean-code-uncle-bob.jpg" scale="1" /> 
+            /// <image url="$(SolutionDir)Assets\SOLID\clean-code-uncle-bob.jpg" scale="1" /> 
 
             Console.ReadLine();
         }
